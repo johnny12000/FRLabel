@@ -1,0 +1,16 @@
+PODS:
+  - FRLabel (0.1.0)
+
+DEPENDENCIES:
+  - FRLabel (from `../`)
+
+EXTERNAL SOURCES:
+  FRLabel:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FRLabel: c364aeed28f5adfea9972565477184464338a3be
+
+PODFILE CHECKSUM: 592341766e9b23e06dd29b08577e9c4db7c4c6de
+
+COCOAPODS: 1.2.1
