@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		19C395B1119B352DE9B9DF7474D98C26 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DAFEF80C19B39BA459787D40A723DC /* ReplaceMe.swift */; };
+		19C395B1119B352DE9B9DF7474D98C26 /* FRLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DAFEF80C19B39BA459787D40A723DC /* FRLabel.swift */; };
 		1C8DFA74B80F621084C7B4DFDDD4FC34 /* Pods-FRLabel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EF20816892A9AA6E5F53F83E365FEA2C /* Pods-FRLabel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		37E1A9273E804DDBB925CC138DD07A85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		3BE5F3675A165B8A627B863F27FC5818 /* FRLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ED1EB5E6EE0108EAFB26EF022294E05 /* FRLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -27,10 +27,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0CF30FF69DB1BAA29C5E385262A51397 /* FRLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FRLabel.framework; path = FRLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CF30FF69DB1BAA29C5E385262A51397 /* FRLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FRLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DBAF983011562CA80E15F9D9BEC7AAA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		157097A1B2D7B810BE31E8C6533D1EC7 /* Pods_FRLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FRLabel_Tests.framework; path = "Pods-FRLabel_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		189677988C09A9C722D684445F1C7324 /* FRLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FRLabel.modulemap; sourceTree = "<group>"; };
+		157097A1B2D7B810BE31E8C6533D1EC7 /* Pods_FRLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FRLabel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		189677988C09A9C722D684445F1C7324 /* FRLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FRLabel.modulemap; sourceTree = "<group>"; };
 		1A45F49CF421B7B98F4C885ABD3D3F8A /* Pods-FRLabel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FRLabel_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		20986A96341CDD87EFC2AD2EA03DAF98 /* FRLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FRLabel-dummy.m"; sourceTree = "<group>"; };
 		32DA93810C7548BB535121345D669ECC /* FRLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FRLabel-prefix.pch"; sourceTree = "<group>"; };
@@ -41,11 +41,11 @@
 		6B2ADC516F382F45772FC55B9F279253 /* Pods-FRLabel_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FRLabel_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		7ED1EB5E6EE0108EAFB26EF022294E05 /* FRLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FRLabel-umbrella.h"; sourceTree = "<group>"; };
 		8E2D7B681311A0718AEAC59EA8D07186 /* FRLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FRLabel.xcconfig; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B9F66049EBB09785ECA508A8D5C10FB8 /* Pods-FRLabel_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FRLabel_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C7C985EF9F805A04B773E13B6C16B8F4 /* Pods-FRLabel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FRLabel_Tests.modulemap"; sourceTree = "<group>"; };
+		C7C985EF9F805A04B773E13B6C16B8F4 /* Pods-FRLabel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FRLabel_Tests.modulemap"; sourceTree = "<group>"; };
 		E0E601823B0491F186EBF2237D724927 /* Pods-FRLabel_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FRLabel_Tests-dummy.m"; sourceTree = "<group>"; };
-		E1DAFEF80C19B39BA459787D40A723DC /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		E1DAFEF80C19B39BA459787D40A723DC /* FRLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FRLabel.swift; sourceTree = "<group>"; };
 		EDB354830705C9B7FD39263A7BA9E2B9 /* Pods-FRLabel_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FRLabel_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		EF20816892A9AA6E5F53F83E365FEA2C /* Pods-FRLabel_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FRLabel_Tests-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -135,7 +135,6 @@
 			children = (
 				EDC3F4A41DCACC956F672271EC83B4DA /* Classes */,
 			);
-			name = FRLabel;
 			path = FRLabel;
 			sourceTree = "<group>";
 		};
@@ -176,9 +175,8 @@
 		EDC3F4A41DCACC956F672271EC83B4DA /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				E1DAFEF80C19B39BA459787D40A723DC /* ReplaceMe.swift */,
+				E1DAFEF80C19B39BA459787D40A723DC /* FRLabel.swift */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -272,7 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCAC05A925E91736C20CF2E9C0B7651D /* FRLabel-dummy.m in Sources */,
-				19C395B1119B352DE9B9DF7474D98C26 /* ReplaceMe.swift in Sources */,
+				19C395B1119B352DE9B9DF7474D98C26 /* FRLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
