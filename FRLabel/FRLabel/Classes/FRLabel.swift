@@ -7,22 +7,32 @@
 
 import UIKit
 
+@IBDesignable
 open class FRLabel: UILabel {
-    
+
+    /// Size of text indentation from the control edge
+    @IBInspectable
+    var textIndent: CGSize = CGSize(width: 20, height: 15)
+
     public override init(frame: CGRect) {
         super.init(frame: frame)
     }
-    
+
     required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
-    
-    override open var intrinsicContentSize : CGSize {
+
+    override open var intrinsicContentSize: CGSize {
         let size = super.intrinsicContentSize
-        return CGSize(width: size.width + 2 * 20, height: self.font.pointSize + 2 * 15)
+        return CGSize(width: size.width + 2 * textIndent.width,
+                      height: self.font.pointSize + 2 * textIndent.height)
     }
-    
+
     override open func drawText(in rect: CGRect) {
-        super.drawText(in: UIEdgeInsetsInsetRect(rect, UIEdgeInsets(top: 15, left: 20, bottom: 15, right: 20)))
+        let textInsets = UIEdgeInsets(top: textIndent.height,
+                                      left: textIndent.width,
+                                      bottom: textIndent.height,
+                                      right: textIndent.width)
+        super.drawText(in: UIEdgeInsetsInsetRect(rect, textInsets))
     }
 }
