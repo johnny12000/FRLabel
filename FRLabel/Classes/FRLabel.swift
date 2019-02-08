@@ -33,6 +33,6 @@ open class FRLabel: UILabel {
                                       left: textIndent.width,
                                       bottom: textIndent.height,
                                       right: textIndent.width)
-        super.drawText(in: UIEdgeInsetsInsetRect(rect, textInsets))
+        super.drawText(in: rect.inset(by: textInsets))
     }
 }
